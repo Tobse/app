@@ -394,7 +394,7 @@ return [
      *    should be longer than `Session.timeout`.
      * - `session.gc_maxlifetime` - The number of seconds after which a session is considered 'garbage'
      *    that can be deleted by PHP's session cleanup behavior. This value should be greater than both
-     *    `Sesssion.timeout` and `session.cookie_lifetime`.
+     *    `session.timeout` and `session.cookie_lifetime`.
      *
      * The built-in `defaults` options are:
      *
